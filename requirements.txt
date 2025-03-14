@@ -1,0 +1,7 @@
+telebot~=0.0.5
+pyTelegramBotAPI~=4.26.0
+pandas~=2.2.3
+Levenshtein~=0.27.1
+openpyxl==3.1.5
+
+pydantic-settings~=2.8.1

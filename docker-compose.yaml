@@ -1,0 +1,6 @@
+services:
+  telegram_bot:
+    build:
+      dockerfile: Dockerfile
+    restart: unless-stopped
+
