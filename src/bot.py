@@ -7,9 +7,6 @@ from src.config import settings
 TOKEN = settings.TELEGRAM_BOT_API_TOKEN
 bot = telebot.TeleBot(TOKEN)
 
-with open("../ava.jpg", "rb") as photo:
-    bot.set_chat_photo(chat_id=bot.get_me().id, photo=photo)
-
 # Загружаем данные из Excel
 FILE_PATH = "../Medbotsheets.xlsx"  # Укажите путь к вашему файлу
 df = pd.read_excel(FILE_PATH, header=None)
